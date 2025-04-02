@@ -9,7 +9,16 @@
   --sidebar-opacity: 0.4;
   --main-content-color: rgba(var(--main-rgb), var(--main-content-opacity));
   --sidebar-color: rgba(var(--main-rgb), var(--sidebar-opacity));
+  
+  /* HYPERLINK SHIT*/
+  --hyperlink-hue: 210;           /* A nice blue hue */
+  --hyperlink-saturation: 70%;    /* Adjust saturation as needed */
+  --hyperlink-lightness: 50%;     /* Adjust lightness as needed */
+  --hyperlink-hsl: var(--hyperlink-hue), calc(var(--hyperlink-saturation) * var(--saturation-factor)), var(--hyperlink-lightness);
+  
   /* ACCENT HSL AND TEXT COLOR SETTINGS */
+
+  
   --accent-hue: 156;
   --accent-saturation: 77.5%;
   --accent-lightness: 47.1%;
